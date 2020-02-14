@@ -69,10 +69,24 @@ const Layout = ({ children }) => {
             </div>
             <ul className="actions">
               <li>
-                <button type="submit">Submit</button>
+                <button type="submit">Send Message</button>
               </li>
             </ul>
           </form>
+          <ul className="contact">
+            <li className="icon solid fa-envelope">
+              <a href="mailto:hwong.0305@gmail.com">hwong.0305@gmail.com</a>
+            </li>
+            <li className="icon brands fa-twitter">
+              <a href="https://twitter.com/devwong0305">devwong0305</a>
+            </li>
+            <li className="icon brands fa-github">
+              <a href="https://www.github.com/hwong0305">hwong0305</a>
+            </li>
+            <li className="icon brands fa-linkedin">
+              <a href="https://www.linkedin.com/in/hw335">hw335</a>
+            </li>
+          </ul>
           <ul className="copyright">
             <li>© {new Date().getFullYear()}</li>{' '}
             <li>
