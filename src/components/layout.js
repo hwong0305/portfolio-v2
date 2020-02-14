@@ -30,16 +30,13 @@ const Layout = ({ children }) => {
           <a href="#">Dev Wong</a>
         </h1>
         <nav>
-          <a href="#">Menu</a>
+          <button type="button">Menu</button>
         </nav>
       </header>
       <section id="banner">
         <div className="inner">
-          <h2>Hi Humans</h2>
-          <p>
-            I'm Herman Wong a self taught Full Stack Developer living in Silicon
-            Valley
-          </p>
+          <h2>Hi. I'm Herman Wong</h2>
+          <p>A Full Stack Web Developer living in Silicon Valley</p>
         </div>
       </section>
       <main>{children}</main>
