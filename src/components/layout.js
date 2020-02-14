@@ -29,9 +29,6 @@ const Layout = ({ children }) => {
         <h1>
           <a href="#">Dev Wong</a>
         </h1>
-        <nav>
-          <button type="button">Menu</button>
-        </nav>
       </header>
       <section id="banner">
         <div className="inner">
@@ -44,10 +41,8 @@ const Layout = ({ children }) => {
         <div className="inner">
           <h2 className="major">Get in touch</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            If you have any questions or if you want to collaborate on a
+            project, please feel free to reach out to me.
           </p>
           <form method="post" action="#">
             <div className="fields">

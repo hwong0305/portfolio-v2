@@ -80,7 +80,7 @@ const IndexPage = () => (
                 </a>
               </article>
               <article>
-                <a href="#" className="image">
+                <a href="https://kanban.hireme.fun/" className="image">
                   <img src="images/kanban.png" alt="" />
                 </a>
                 <h3 className="major">React Kanban Board</h3>
@@ -141,10 +141,26 @@ const IndexPage = () => (
               </article>
               <article>
                 <a
+                  href="https://codepen.io/sfwong445/full/qBdbxZE"
+                  className="image"
+                >
+                  <img src="images/minesweeper.png" alt="" />
+                </a>
+                <h3 className="major">Minesweeper</h3>
+                <p>A minesweeper game built in Vanilla.JS</p>
+                <a
+                  href="https://codepen.io/sfwong445/pen/qBdbxZE"
+                  className="special"
+                >
+                  Learn more
+                </a>
+              </article>
+              <article>
+                <a
                   href="https://github.com/hwong0305/tab-tracker"
                   className="image"
                 >
-                  <img src="images/tab.png" alt="" />
+                  <img src="images/tab2.png" alt="" />
                 </a>
                 <h3 className="major">Tab Tracker</h3>
                 <p>
