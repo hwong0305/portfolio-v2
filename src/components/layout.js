@@ -12,12 +12,22 @@ import './layout.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = ({ children }) => (
-  <div className="page-header text-center">
-    <main>{children}</main>
+  <div className="text-center">
+    <section id="banner">
+      <div className="inner">
+        <h2>Hi Humans</h2>
+        <p>
+          I'm Herman Wong a self taught Full Stack Developer living in Silicon
+          Valley
+        </p>
+      </div>
+    </section>
+    <main className="page-wrapper">{children}</main>
     <footer>
       © {new Date().getFullYear()}, Built with
       {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
+      <a href="https://www.gatsbyjs.org">Gatsby</a> | Design:{' '}
+      <a href="https://html5up.net/">HTML5UP</a>
     </footer>
   </div>
 );
