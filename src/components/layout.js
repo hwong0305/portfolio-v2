@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
             If you have any questions or if you want to collaborate on a
             project, please feel free to reach out to me.
           </p>
-          <form method="post" action="#">
+          <form method="post" action="https://formspree.io/mzbrwekr">
             <div className="fields">
               <div className="field">
                 <label htmlFor="name">Name</label>
@@ -52,7 +52,7 @@ const Layout = ({ children }) => {
               </div>
               <div className="field">
                 <label htmlFor="email">Email</label>
-                <input type="text" name="email" id="email" />
+                <input type="text" name="_replyto" id="email" />
               </div>
               <div className="field">
                 <label htmlFor="message">Message</label>
@@ -61,7 +61,7 @@ const Layout = ({ children }) => {
             </div>
             <ul className="actions">
               <li>
-                <button type="submit">Send Message</button>
+                <input type="submit" value="Send" />
               </li>
             </ul>
           </form>
