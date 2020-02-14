@@ -33,7 +33,9 @@ const IndexPage = () => (
           </div>
         </section>
         <section id="two" className="wrapper alt style1">
-          <h2>Projects</h2>
+          <div className="inner">
+            <h2>Projects</h2>
+          </div>
         </section>
       </section>
       {/*

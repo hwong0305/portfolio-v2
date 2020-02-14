@@ -12,7 +12,13 @@ import './layout.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = ({ children }) => (
-  <div className="text-center">
+  <div id="page-wrapper">
+    <header id="header" className="alt">
+      <h1>
+        <a href="#">Dev Wong</a>
+      </h1>
+      <nav>Menu</nav>
+    </header>
     <section id="banner">
       <div className="inner">
         <h2>Hi Humans</h2>
@@ -22,7 +28,7 @@ const Layout = ({ children }) => (
         </p>
       </div>
     </section>
-    <main className="page-wrapper">{children}</main>
+    <main>{children}</main>
     <footer>
       © {new Date().getFullYear()}, Built with
       {` `}
