@@ -78,6 +78,11 @@ const Layout = ({ children }) => {
             <li className="icon brands fa-linkedin">
               <a href="https://www.linkedin.com/in/hw335">hw335</a>
             </li>
+            <li className="icon solid fa-download">
+              <a href="/hermanwong.pdf" target="_blank">
+                Resume
+              </a>
+            </li>
           </ul>
           <ul className="copyright">
             <li>© {new Date().getFullYear()}</li>{' '}
