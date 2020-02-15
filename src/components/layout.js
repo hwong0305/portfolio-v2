@@ -7,6 +7,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
+import MyModal from './modal';
 
 import './layout.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -29,7 +30,28 @@ const Layout = ({ children }) => {
         <h1>
           <a href="#">Dev Wong</a>
         </h1>
+        <nav>
+          <MyModal />
+        </nav>
       </header>
+
+      <nav id="menu">
+        <div className="inner">
+          <h2>Menu</h2>
+          <ul className="links">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="generic.html">Generic</a>
+            </li>
+            <li>
+              <a href="element.html">Element</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <section id="banner">
         <div className="inner">
           <h2>Hi. I'm Herman Wong</h2>

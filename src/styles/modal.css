@@ -1,0 +1,96 @@
+.nav__modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__modal {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__modal ul {
+  list-style: none;
+}
+
+.modal__box {
+  position: relative;
+  font-size: 16px;
+  z-index: 150;
+  background: rgb(76, 92, 150);
+  border-radius: 0.5rem;
+  width: 288px;
+  height: auto;
+  padding: 40px 24px 8px 24px;
+}
+
+.modal__box h2 {
+  font-weight: 700;
+  font-family: Raleway, Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+  padding-bottom: 0.8rem;
+}
+
+.modal__box ul {
+  padding-left: 0px;
+}
+
+.modal__box ul li {
+  display: block;
+  width: 100%;
+  padding-left: 0px;
+  border-radius: 0.5rem;
+  font-size: 0.8em;
+  font-weight: 200;
+  pointer-events: auto;
+}
+
+.modal__box ul a:hover {
+  text-decoration: none;
+}
+
+.modal__box ul li:hover {
+  background: #45558d;
+}
+
+.modal__box .links a {
+  text-align: center;
+}
+
+#closeModal {
+  border: none;
+  box-shadow: none;
+  position: absolute;
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  top: -2.5rem;
+  right: 0.5rem;
+  outline: none;
+  font-weight: 400;
+}
+
+#closeModal:hover {
+  background: transparent;
+}
+
+#closeModal:active {
+  background: transparent;
+}

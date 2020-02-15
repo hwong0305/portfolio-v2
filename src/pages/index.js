@@ -52,7 +52,7 @@ const IndexPage = () => (
                   application by implementing key-value in-memory caching, and
                   validated support for AWS and Google Cloud Service.
                   FreeDomains is a website that allows users to host their own
-                  web apps quickly powered by MyProxy
+                  web apps quickly powered by MyProxy.
                 </p>
                 <a
                   className="special"
