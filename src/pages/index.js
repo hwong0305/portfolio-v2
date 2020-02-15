@@ -1,4 +1,5 @@
 import React from 'react';
+import { Badge } from 'reactstrap';
 import profile from '../../static/images/profile.jpg';
 
 import Layout from '../components/layout';
@@ -53,6 +54,19 @@ const IndexPage = () => (
                   validated support for AWS and Google Cloud Service.
                   FreeDomains is a website that allows users to host their own
                   web apps quickly powered by MyProxy.
+                  <br />
+                  <br />
+                  <span className="h5">
+                    <Badge color="light">
+                      <i className="fa fa-server mr-2" />4
+                    </Badge>
+                    <Badge color="light" className="ml-2">
+                      <i className="fa fa-star mx-1" /> 18
+                    </Badge>
+                    <Badge color="light" className="ml-2">
+                      <i className="fa fa-code-branch mx-1" /> 8
+                    </Badge>
+                  </span>
                 </p>
                 <a
                   className="special"
@@ -71,6 +85,18 @@ const IndexPage = () => (
                   teach people how to become great Software Engineers. I am
                   currently on a team of engineers that is rebuilding the new
                   platform. My latest contribution is building the landing page.
+                  <br />
+                  <br />
+                  <span className="h5">
+                    <Badge color="light">
+                      <i className="fa fa-users mr-1" />
+                      420
+                    </Badge>
+                    <Badge color="light" className="ml-2">
+                      <i className="fab fa-meetup mr-1"></i>
+                      240
+                    </Badge>
+                  </span>
                 </p>
                 <a
                   href="https://github.com/garagescript/c0d3-app"
