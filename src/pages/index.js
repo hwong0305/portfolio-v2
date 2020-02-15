@@ -61,10 +61,10 @@ const IndexPage = () => (
                       <i className="fa fa-server mr-2" />4
                     </Badge>
                     <Badge color="light" className="ml-2">
-                      <i className="fa fa-star mx-1" /> 18
+                      <i className="fa fa-star mr-1" /> 18
                     </Badge>
                     <Badge color="light" className="ml-2">
-                      <i className="fa fa-code-branch mx-1" /> 8
+                      <i className="fa fa-code-branch mr-1" /> 8
                     </Badge>
                   </span>
                 </p>
@@ -89,11 +89,11 @@ const IndexPage = () => (
                   <br />
                   <span className="h5">
                     <Badge color="light">
-                      <i className="fa fa-users mr-1" />
+                      <i className="fa fa-users mr-2" />
                       420
                     </Badge>
                     <Badge color="light" className="ml-2">
-                      <i className="fab fa-meetup mr-1"></i>
+                      <i className="fab fa-meetup mr-2"></i>
                       240
                     </Badge>
                   </span>
