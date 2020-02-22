@@ -40,7 +40,7 @@ const IndexPage = () => (
             </p>
             <section className="features">
               <article>
-                <a className="image" href="https:/freedomains.dev">
+                <a className="image" href="https://freedomains.dev">
                   <img src="images/proxy.png" alt="My Proxy" />
                 </a>
                 <h3 className="major">MyProxy</h3>
