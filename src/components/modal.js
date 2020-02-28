@@ -49,10 +49,16 @@ const MyModal = () => {
                   <li>Background</li>
                 </a>
                 <a href="#two">
+                  <li>SKills</li>
+                </a>
+                <a href="#three">
                   <li>Projects</li>
                 </a>
                 <a href="#footer">
                   <li>Contact Me</li>
+                </a>
+                <a href="/hermanwong.pdf" target="_blank">
+                  <li>Resume</li>
                 </a>
               </ul>
             </div>

@@ -30,7 +30,46 @@ const IndexPage = () => (
             </div>
           </div>
         </section>
-        <section id="two" className="wrapper alt style1">
+        <section id="two" className="wrapper alt style3">
+          <div className="inner">
+            <h2 className="major">Skills</h2>
+            <div className="row">
+              <div className="col-6">
+                <h4>Development</h4>
+                <ul className="alt">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript (ES6+)</li>
+                  <li>TypeScript</li>
+                  <li>GraphQL</li>
+                  <li>React</li>
+                  <li>Python</li>
+                  <li>PostgreSQL</li>
+                  <li>Sequelize</li>
+                  <li>MongoDB</li>
+                </ul>
+              </div>
+              <div className="col-6">
+                <h4>Tools</h4>
+                <ul className="alt">
+                  <li>Git</li>
+                  <li>MatLab</li>
+                  <li>Pandas</li>
+                </ul>
+
+                <h4>Mechanical Enginering</h4>
+                <ul className="alt">
+                  <li>Solidworks</li>
+                  <li>Autodesk Inventor</li>
+                  <li>Machining, Sheet Metal & Weldments</li>
+                  <li>GD&T</li>
+                  <li>Opto-Mechanical Design</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="three" className="wrapper style1">
           <div className="inner">
             <h2 className="major">Projects</h2>
             <p>
