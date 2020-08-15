@@ -79,7 +79,10 @@ const IndexPage = () => (
             </p>
             <section className="features">
               <article>
-                <a className="image" href="https://freedomains.dev">
+                <a
+                  href="https://garagescript.github.io/myProxy/"
+                  className="image"
+                >
                   <img src="images/proxy.png" alt="My Proxy" />
                 </a>
                 <h3 className="major">MyProxy</h3>
@@ -109,13 +112,13 @@ const IndexPage = () => (
                 </p>
                 <a
                   className="special"
-                  href="https://garagescript.github.io/myProxy/"
+                  href="https://github.com/garageScript/myProxy"
                 >
                   Learn more
                 </a>
               </article>
               <article>
-                <a href="https://v2.c0d3.app" className="image">
+                <a href="https://www.c0d3.com" className="image">
                   <img src="images/code.png" alt="" />
                 </a>
                 <h3 className="major">C0D3.com</h3>
@@ -132,8 +135,10 @@ const IndexPage = () => (
                       420
                     </Badge>
                     <Badge color="light" className="ml-2">
-                      <i className="fab fa-meetup mr-2"></i>
-                      240
+                      <i className="fa fa-star mr-1" /> 31
+                    </Badge>
+                    <Badge color="light" className="ml-2">
+                      <i className="fa fa-code-branch mr-1" /> 14
                     </Badge>
                   </span>
                 </p>
@@ -145,7 +150,7 @@ const IndexPage = () => (
                 </a>
               </article>
               <article>
-                <a href="https://kanban.hireme.fun/" className="image">
+                <a href="https://kanban.devwong.com/" className="image">
                   <img src="images/kanban.png" alt="" />
                 </a>
                 <h3 className="major">React Kanban Board</h3>
@@ -162,7 +167,7 @@ const IndexPage = () => (
               </article>
               <article>
                 <a
-                  href="https://dazzling-mcnulty-64b68a.netlify.com/# "
+                  href="https://focused-visvesvaraya-a2d7ea.netlify.app/#/"
                   className="image"
                 >
                   <img src="images/rest.png" alt="" />
