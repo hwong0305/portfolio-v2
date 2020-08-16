@@ -150,7 +150,10 @@ const IndexPage = () => (
                 </a>
               </article>
               <article className="image">
-                <a href="https://github.com/hwong0305/wong-notes">
+                <a
+                  href="https://github.com/hwong0305/wong-notes"
+                  className="image"
+                >
                   <img src="images/note.jpg" alt="" />
                 </a>
                 <h3 className="major">Notes App</h3>
