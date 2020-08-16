@@ -119,7 +119,7 @@ const IndexPage = () => (
               </article>
               <article>
                 <a href="https://www.c0d3.com" className="image">
-                  <img src="images/code.png" alt="" />
+                  <img src="images/code.png" alt="code screenshot" />
                 </a>
                 <h3 className="major">C0D3.com</h3>
                 <p>
@@ -149,9 +149,25 @@ const IndexPage = () => (
                   Learn more
                 </a>
               </article>
+              <article className="image">
+                <a href="https://github.com/hwong0305/wong-notes">
+                  <img src="images/note.jpg" alt="" />
+                </a>
+                <h3 className="major">Notes App</h3>
+                <p>
+                  A self hosted notes application built on React and Node.JS
+                  with git history tracking
+                </p>
+                <a
+                  href="https://github.com/hwong0305/wong-notes"
+                  className="special"
+                >
+                  Learn more
+                </a>
+              </article>
               <article>
                 <a href="https://kanban.devwong.com/" className="image">
-                  <img src="images/kanban.png" alt="" />
+                  <img src="images/kanban.png" alt="Kanban Screenshot" />
                 </a>
                 <h3 className="major">React Kanban Board</h3>
                 <p>
