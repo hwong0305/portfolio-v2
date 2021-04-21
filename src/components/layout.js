@@ -55,7 +55,7 @@ const Layout = ({ children }) => {
       <section id="banner">
         <div className="inner">
           <h2>Hi. I'm Herman Wong</h2>
-          <p>A Full Stack Web Developer living in Silicon Valley</p>
+          <p>Full Stack Developer / Mechanical Engineer in Silicon Valley</p>
         </div>
       </section>
       <main>{children}</main>

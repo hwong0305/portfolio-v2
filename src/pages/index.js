@@ -17,15 +17,15 @@ const IndexPage = () => (
             <div className="content">
               <h2 className="major">Background</h2>
               <p>
-                I obtained my Bachelor in Mechanical Engineering in 2013 and
-                started working as a Mechanical Engineer in the semiconductor
-                industry. While working, I began to learn software engineering
-                through resources such as{' '}
-                <a href="https://freecodecamp.org">FreeCodeCamp</a>. After going
-                through several YouTube videos, I decided I want to make career
-                change to Software Engineering and I began contributing to open
-                source communities such as{' '}
-                <a href="https://c0d3.com">c0d3.com</a>.
+                I am a Full Stack Developer with a Mechanical Engienering
+                background who enjoys working on projects that solves issues
+                such as <a href="https://c0d3.com">cd03.com</a> and{' '}
+                <a href="https://freedomains.dev">FreeDomains</a> and I am
+                looking to join a team that builds great web products.
+              </p>
+              <p>
+                In my free time, I enjoy learning more about CAD, machining, PCs
+                and servers.
               </p>
             </div>
           </div>
