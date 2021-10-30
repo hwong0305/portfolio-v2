@@ -80,7 +80,7 @@ const IndexPage = () => (
             <section className="features">
               <article>
                 <a
-                  href="https://garagescript.github.io/myProxy/"
+                  href="https://github.com/garageScript/myProxy"
                   className="image"
                 >
                   <img src="images/proxy.png" alt="My Proxy" />
