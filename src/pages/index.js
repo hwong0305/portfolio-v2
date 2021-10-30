@@ -17,9 +17,9 @@ const IndexPage = () => (
             <div className="content">
               <h2 className="major">Background</h2>
               <p>
-                I am a Full Stack Developer with a Mechanical Engienering
+                I am a Full Stack Developer with a Mechanical Engineering
                 background who enjoys working on projects that solves issues
-                such as <a href="https://c0d3.com">cd03.com</a> and{' '}
+                such as <a href="https://c0d3.com">c0d3.com</a> and{' '}
                 <a href="https://freedomains.dev">FreeDomains</a> and I am
                 looking to join a team that builds great web products.
               </p>
@@ -154,7 +154,7 @@ const IndexPage = () => (
                   href="https://github.com/hwong0305/wong-notes"
                   className="image"
                 >
-                  <img src="images/note.jpg" alt="" />
+                  <img src="images/note.jpg" alt="Wong Notes" />
                 </a>
                 <h3 className="major">Notes App</h3>
                 <p>
@@ -169,7 +169,10 @@ const IndexPage = () => (
                 </a>
               </article>
               <article>
-                <a href="https://kanban.devwong.com/" className="image">
+                <a
+                  href="https://github.com/hwong0305/drag-and-drop-kanban"
+                  className="image"
+                >
                   <img src="images/kanban.png" alt="Kanban Screenshot" />
                 </a>
                 <h3 className="major">React Kanban Board</h3>
@@ -189,7 +192,7 @@ const IndexPage = () => (
                   href="https://focused-visvesvaraya-a2d7ea.netlify.app/#/"
                   className="image"
                 >
-                  <img src="images/rest.png" alt="" />
+                  <img src="images/rest.png" alt="Rest of World" />
                 </a>
                 <h3 className="major">Vue Rest of World API</h3>
                 <p>
@@ -233,7 +236,7 @@ const IndexPage = () => (
                   href="https://codepen.io/sfwong445/full/qBdbxZE"
                   className="image"
                 >
-                  <img src="images/minesweeper.png" alt="" />
+                  <img src="images/minesweeper.png" alt="Minesweeper" />
                 </a>
                 <h3 className="major">Minesweeper</h3>
                 <p>A minesweeper game built in Vanilla.JS</p>
@@ -249,7 +252,7 @@ const IndexPage = () => (
                   href="https://github.com/hwong0305/tab-tracker"
                   className="image"
                 >
-                  <img src="images/tab2.png" alt="" />
+                  <img src="images/tab2.png" alt="Tab Tracker" />
                 </a>
                 <h3 className="major">Tab Tracker</h3>
                 <p>
