@@ -1,0 +1,15 @@
+.article__project > a {
+  border-bottom: none;
+}
+
+.article__project > a > img {
+  height: 310px;
+}
+
+article > a > img {
+  height: 310px;
+}
+
+.major {
+  margin-top: 8px;
+}

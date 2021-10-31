@@ -5,6 +5,8 @@ import profile from '../../static/images/profile.jpg';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
+import '../styles/project.css';
+
 const IndexPage = () => (
   <>
     <SEO title="Home" />
@@ -78,11 +80,8 @@ const IndexPage = () => (
               myself to enhance my Web Development knowledge.
             </p>
             <section className="features">
-              <article>
-                <a
-                  href="https://github.com/garageScript/myProxy"
-                  className="image"
-                >
+              <article className="article__project">
+                <a href="https://github.com/garageScript/myProxy">
                   <img src="images/proxy.png" alt="My Proxy" />
                 </a>
                 <h3 className="major">MyProxy</h3>
@@ -117,8 +116,8 @@ const IndexPage = () => (
                   Learn more
                 </a>
               </article>
-              <article>
-                <a href="https://www.c0d3.com" className="image">
+              <article className="article__project">
+                <a href="https://www.c0d3.com" className="article__project">
                   <img src="images/code.png" alt="code screenshot" />
                 </a>
                 <h3 className="major">C0D3.com</h3>
@@ -149,11 +148,8 @@ const IndexPage = () => (
                   Learn more
                 </a>
               </article>
-              <article className="image">
-                <a
-                  href="https://github.com/hwong0305/wong-notes"
-                  className="image"
-                >
+              <article className="article__project">
+                <a href="https://github.com/hwong0305/wong-notes">
                   <img src="images/note.jpg" alt="Wong Notes" />
                 </a>
                 <h3 className="major">Notes App</h3>
@@ -168,11 +164,8 @@ const IndexPage = () => (
                   Learn more
                 </a>
               </article>
-              <article>
-                <a
-                  href="https://github.com/hwong0305/drag-and-drop-kanban"
-                  className="image"
-                >
+              <article className="article__project">
+                <a href="https://github.com/hwong0305/drag-and-drop-kanban">
                   <img src="images/kanban.png" alt="Kanban Screenshot" />
                 </a>
                 <h3 className="major">React Kanban Board</h3>
@@ -187,11 +180,8 @@ const IndexPage = () => (
                   Learn more
                 </a>
               </article>
-              <article>
-                <a
-                  href="https://focused-visvesvaraya-a2d7ea.netlify.app/#/"
-                  className="image"
-                >
+              <article className="article__project">
+                <a href="https://focused-visvesvaraya-a2d7ea.netlify.app/#/">
                   <img src="images/rest.png" alt="Rest of World" />
                 </a>
                 <h3 className="major">Vue Rest of World API</h3>
@@ -210,11 +200,8 @@ const IndexPage = () => (
                   Learn more
                 </a>
               </article>
-              <article>
-                <a
-                  href="https://github.com/hwong0305/react-map"
-                  className="image"
-                >
+              <article className="article__project">
+                <a href="https://github.com/hwong0305/react-map">
                   <img src="images/post.png" alt="" />
                 </a>
                 <h3 className="major">React Map</h3>
@@ -231,11 +218,8 @@ const IndexPage = () => (
                   Learn more
                 </a>
               </article>
-              <article>
-                <a
-                  href="https://codepen.io/sfwong445/full/qBdbxZE"
-                  className="image"
-                >
+              <article className="article__project">
+                <a href="https://codepen.io/sfwong445/full/qBdbxZE">
                   <img src="images/minesweeper.png" alt="Minesweeper" />
                 </a>
                 <h3 className="major">Minesweeper</h3>
@@ -247,11 +231,8 @@ const IndexPage = () => (
                   Learn more
                 </a>
               </article>
-              <article>
-                <a
-                  href="https://github.com/hwong0305/tab-tracker"
-                  className="image"
-                >
+              <article className="article__project">
+                <a href="https://github.com/hwong0305/tab-tracker">
                   <img src="images/tab2.png" alt="Tab Tracker" />
                 </a>
                 <h3 className="major">Tab Tracker</h3>
