@@ -20,14 +20,13 @@ const IndexPage = () => (
               <h2 className="major">Background</h2>
               <p>
                 I am a Full Stack Developer with a Mechanical Engineering
-                background who enjoys working on projects that solves issues
-                such as <a href="https://c0d3.com">c0d3.com</a> and{' '}
-                <a href="https://freedomains.dev">FreeDomains</a> and I am
-                looking to join a team that builds great web products.
+                background who enjoys working on projects that solves simple
+                problems such as <a href="https://c0d3.com">c0d3.com</a> and{' '}
+                <a href="https://freedomains.dev">FreeDomains</a>{' '}
               </p>
               <p>
-                In my free time, I enjoy learning more about CAD, machining, PCs
-                and servers.
+                In my free time, I enjoy learning more about CAD, machining,
+                custom keyboards, photography, PCs and servers.
               </p>
             </div>
           </div>
